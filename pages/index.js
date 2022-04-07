@@ -60,7 +60,7 @@ export default function Home() {
     try {
       await lcContract.methods.enter().send({
         from: address,
-        value: "15000000000000000",
+        value: "20000000000000000",
         gas: 3000000,
         gasPrice: null
       })
@@ -143,7 +143,7 @@ export default function Home() {
         <nav className='navbar mt-4 mb-4'>
           <div className='container'>
             <div className='navbar-brand'>
-              <h1>Ether Lottery</h1>
+              <h1>ETH Lottery</h1>
             </div>
             <div className='navbar-end'>
               <button onClick={connectWalletHandler} className='button is-link'>Connect Wallet</button>
