@@ -155,7 +155,7 @@ export default function Home() {
             <div className='columns'>
               <div className='column is-two-thirds'>
                 <section className='mt-5'>
-                  <p>Enter the lottery by sending 0.01 Ether</p>
+                  <p>Enter the lottery by sending 0.2 Ether</p>
                   <button onClick={enterLotteryHandler} className='button is-link is-large is-light mt-3'>Play now</button>
                 </section>
                 <section className='mt-6'>
