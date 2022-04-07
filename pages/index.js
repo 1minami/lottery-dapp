@@ -60,7 +60,7 @@ export default function Home() {
     try {
       await lcContract.methods.enter().send({
         from: address,
-        value: "20000000000000000",
+        value: "200000000000000000",
         gas: 3000000,
         gasPrice: null
       })
